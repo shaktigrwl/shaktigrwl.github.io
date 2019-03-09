@@ -1,0 +1,127 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-size: 120%;
+  background-image: url(pic1.jpg);
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background-color: darkturquoise;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+  font-family: fantasy;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: darkturquoise;
+    font-family: cursive;
+    color: #fff;
+}
+
+header .logo{
+    margin-top: 40px;
+    float: left;
+}
+
+header nav{
+    float: right;
+    opacity: 1;
+}
+
+
+header nav ul{
+    margin-top: 40px;
+    list-style: none;
+    overflow: hidden;
+    float: left;
+}
+
+header nav ul li{
+    float: left;
+    margin-left: 50px;
+}
+
+header nav ul li a,
+header nav .login_btn{
+    text-decoration: none;
+    color: #fff;
+    font-family: cursive;
+    font-size: 16px;
+    letter-spacing: 1px;
+
+}
+form, .content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 1px solid #B0C4DE;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+  font-family: fantasy;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  font-family: fantasy;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background-color: darkturquoise;
+  border: none;
+  border-radius: 5px;
+  font-family: fantasy;
+    font-size: 18px;
+}
+.alogin{
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+     font-family: fantasy;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+     font-family: fantasy;
+}
